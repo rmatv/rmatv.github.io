@@ -3,30 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>rmatv.github.io/en/</loc>
+    <loc>https://rmatv.github.io/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="rmatv.github.io/"
+                href="https://rmatv.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="rmatv.github.io/en/"
+                href="https://rmatv.github.io/en/"
                 />
   </url>
   
   <url>
-    <loc>rmatv.github.io/en/tags/</loc>
+    <loc>https://rmatv.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="rmatv.github.io/tags/"
+                href="https://rmatv.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="rmatv.github.io/en/tags/"
+                href="https://rmatv.github.io/en/tags/"
                 />
   </url>
   

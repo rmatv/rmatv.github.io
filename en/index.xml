@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Roman Matvienko</title>
-    <link>rmatv.github.io/en/</link>
+    <link>https://rmatv.github.io/en/</link>
     <description>Recent content on Roman Matvienko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>2017–2020</copyright>
     
-	<atom:link href="rmatv.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rmatv.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

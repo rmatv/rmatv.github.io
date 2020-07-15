@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>rmatv.github.io/posts/</loc>
+    <loc>https://rmatv.github.io/posts/</loc>
     <lastmod>2018-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>rmatv.github.io/tags/sociology/</loc>
+    <loc>https://rmatv.github.io/tags/sociology/</loc>
     <lastmod>2018-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>rmatv.github.io/tags/</loc>
+    <loc>https://rmatv.github.io/tags/</loc>
     <lastmod>2018-03-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="rmatv.github.io/en/tags/"
+                href="https://rmatv.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="rmatv.github.io/tags/"
+                href="https://rmatv.github.io/tags/"
                 />
   </url>
   
   <url>
-    <loc>rmatv.github.io/2018/03/irreductions/</loc>
+    <loc>https://rmatv.github.io/2018/03/irreductions/</loc>
     <lastmod>2018-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>rmatv.github.io/</loc>
+    <loc>https://rmatv.github.io/</loc>
     <lastmod>2018-03-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="rmatv.github.io/en/"
+                href="https://rmatv.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="rmatv.github.io/"
+                href="https://rmatv.github.io/"
                 />
   </url>
   
