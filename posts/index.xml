@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Роман Матвиенко</title>
+    <link>rmatv.github.io/posts/</link>
+    <description>Recent content in Posts on Роман Матвиенко</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>2017–2020</copyright>
+    <lastBuildDate>Sat, 31 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="rmatv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>«Ирредукции»</title>
+      <link>rmatv.github.io/2018/03/irreductions/</link>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>rmatv.github.io/2018/03/irreductions/</guid>
+      <description>Текст Латура Irréductions переведен на русский дважды. Один перевод издан Европейским университетом, но в социологических сетях более популярен неопубликованный перевод Андрея Кузнецова с английского издания.</description>
+    </item>
+    
+  </channel>
+</rss>
