@@ -1,0 +1,9 @@
+td, th {
+  vertical-align: top;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+caption {
+  text-align: left;
+}
