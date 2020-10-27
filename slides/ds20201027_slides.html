@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Roman Matvienko, VAST Group" />
+  <meta name="date" content="2020-10-27" />
+  <title>Substitutions in beach rugby</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="https://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+   href="./style.css" />
+  <script src="https://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title">Substitutions in beach rugby</h1>
+  <p class="subtitle">Sequential framework</p>
+  <p class="author">
+Roman Matvienko, VAST Group
+  </p>
+  <p class="date">27 October 2020</p>
+</div>
+<div id="plan" class="slide section level1">
+<h1>Plan</h1>
+<ul>
+<li>basic information about beach rugby</li>
+<li>how the laws describe substitutions?</li>
+<li>how players perform substitutions?</li>
+</ul>
+</div>
+<div id="introducing-beach-rugby" class="slide section level1">
+<h1>Introducing beach rugby</h1>
+<p>Beach rugby is a “leisure” form of rugby</p>
+<ul>
+<li>simplified rules → low threshold</li>
+<li>amateur and semi-professional teams (from beginners to ex-pros)</li>
+<li>different level of tactical and technical training</li>
+</ul>
+</div>
+<div id="play-ground" class="slide section level1">
+<h1>Play ground</h1>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ul>
+<li>a sand surface</li>
+<li>the field of play is 31 × 25 metres</li>
+<li>2 in-goal areas, 3 metres in lenght each</li>
+<li>playing area = field of play + in-goal area × 2</li>
+<li>goal lines ∈ in-goal area and ∉ field of play</li>
+<li>touch lines ∉ field of play</li>
+<li>dead ball and touch-in-goal lines ∉ in-goal area</li>
+<li>the centre is not marked</li>
+<li>there is no half way line</li>
+</ul>
+</div><div class="column" style="width:55%;">
+<div class="figure">
+<img src="ds20201027_files/images/beach_rugby_field.svg" width="700" alt="" />
+<p class="caption">Schematic representation of the playing area</p>
+</div>
+</div>
+</div>
+</div>
+<div id="dead-ball-and-try" class="slide section level1">
+<h1>Dead ball and try</h1>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p>Try</p>
+<ul>
+<li>When a player grounds the ball in the opponents’ in-goal area it is a try.</li>
+<li>The team that scored more tries wins.</li>
+</ul>
+<p>Dead ball</p>
+<p>The ball is dead when the referee blows the whistle to stop play.</p>
+<ul>
+<li>the ball is in touch or touch in-goal</li>
+<li>the ball is grounded in in-goal</li>
+<li>a try has been scored</li>
+<li>the ball or ball-carrier touches the dead-ball line or anything beyond it</li>
+<li>falls, knock-ons</li>
+</ul>
+</div><div class="column" style="width:55%;">
+<div class="figure">
+<img src="ds20201027_files/images/beach_rugby_field.png" width="800" alt="" />
+<p class="caption">In-goal areas are highlighted in red</p>
+</div>
+</div>
+</div>
+</div>
+<div id="participants" class="slide section level1">
+<h1>Participants</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Players
+<ul>
+<li>2 teams</li>
+<li>5 players a side on the playing area</li>
+<li>up to 7 substitutes</li>
+</ul></li>
+<li>Match officials
+<ul>
+<li>the referee (within playing area)</li>
+<li>2 assistant referees (on touch lines)</li>
+<li>(optional) reserve referee/assistant</li>
+<li>(optional) time-keeper</li>
+</ul></li>
+</ul>
+</div><div class="column" align="top" style="width:60%;">
+<p><img src="ds20201027_files/images/beach_rugby.png" width="800" /></p>
+</div>
+</div>
+</div>
+<div id="substitutions" class="slide section level1">
+<h1>Substitutions</h1>
+<div class="columns">
+<div class="column" align="top" style="width:50%;">
+<p><img src="ds20201027_files/images/beach_rugby.png" width="650" /></p>
+</div><div class="column" style="width:50%;">
+<p><strong>Law 3. Number of players – the team</strong></p>
+<blockquote>
+<p>3.1 Each team must have no more than five players on the playing area.</p>
+<p>3.2 …As soon as the referee knows that a team has too many players, the referee must order the captain of that team to reduce the number appropriately. A try is disallowed when scored by a team with more than the permitted number of players.</p>
+<p>3.3 …A team may substitute any number of players during a match providing they do so when the ball is dead. Substitutes must enter the playing area at the half way line. A player leaving the playing area may do so from any place.</p>
+<p>‹…›</p>
+</blockquote>
+</div>
+</div>
+</div>
+<div id="the-prescribed-sequence-of-a-substitution" class="slide section level1">
+<h1>The “prescribed” sequence of a substitution</h1>
+<table>
+<colgroup>
+<col width="1%" />
+<col width="26%" />
+<col width="59%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="right">#</th>
+<th align="left">Description</th>
+<th align="left">Rationale</th>
+<th align="left">Sanction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1.</td>
+<td align="left">The referee has stopped the game</td>
+<td align="left">Substitutions are only allowed when the ball is not dead. <br />No more than 5 players a side is permitted on the playing area.</td>
+<td align="left">Free kick, disallowed try</td>
+</tr>
+<tr class="even">
+<td align="right">2.</td>
+<td align="left">A player has left the playing area at any point</td>
+<td align="left">No more than 5 players a side is permitted on the playing area</td>
+<td align="left">Free kick, disallowed try</td>
+</tr>
+<tr class="odd">
+<td align="right">3.</td>
+<td align="left">A substitute has entered the playing area at the half way line</td>
+<td align="left">Substitutes must enter the playing area at the half way line</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<div class="incremental">
+<p><strong>Number of players during each phase:</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">I</th>
+<th align="left">II</th>
+<th align="left">III</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Ref blows the whistle</td>
+<td align="left">Player →</td>
+<td align="left">← Substitute</td>
+</tr>
+<tr class="even">
+<td align="left">5 players max</td>
+<td align="left">&lt;5</td>
+<td align="left">5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="fragment-1.-clear-example" class="slide section level1">
+<h1>Fragment 1. Clear example</h1>
+<p>BLACK2 is leaving the playing area after knock-on (RED73).</p>
+<video width="800" controls>
+<source src="ds20201027_files/video/clear_example_annot.mp4" type="video/mp4">
+<p>Your browser does not support the video tag. </video></p>
+</div>
+<div id="fragment-1.-sequence" class="slide section level1">
+<h1>Fragment 1. Sequence</h1>
+<table>
+<thead>
+<tr class="header">
+<th align="left">I</th>
+<th align="left">II</th>
+<th align="left">III</th>
+<th align="left">IV</th>
+<th align="left">V</th>
+<th align="left">VI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">RED73 knocks-on</td>
+<td align="left">BLACK2 starts</td>
+<td align="left">REF whistles</td>
+<td align="left">BLACK2 →</td>
+<td align="left">← BLACK19</td>
+<td align="left">BLACK3 taps</td>
+</tr>
+<tr class="even">
+<td align="left">5 BLACK players</td>
+<td align="left">5</td>
+<td align="left">5</td>
+<td align="left">4</td>
+<td align="left">5</td>
+<td align="left">5</td>
+</tr>
+</tbody>
+</table>
+<video width="800" controls>
+<source src="ds20201027_files/video/clear_example_annot.mp4" type="video/mp4">
+<p>Your browser does not support the video tag. </video></p>
+</div>
+<div id="fragment-2.-the-ball-is-not-dead" class="slide section level1">
+<h1>Fragment 2. The ball is not dead</h1>
+<p>Two BLACK players are trying to make substitutions while the ball is not dead. The assistant referee prevents this from happening.</p>
+<video width="800" controls>
+<source src="ds20201027_files/video/stop_stop_stop.mp4" type="video/mp4">
+<p>Your browser does not support the video tag. </video></p>
+</div>
+<div id="fragment-2.-remark" class="slide section level1">
+<h1>Fragment 2. Remark</h1>
+<div class="columns">
+<div class="column" align="top" style="width:60%;">
+<p>No 9 is a coach-in-field of the BLACK team. On the previous day, he explained the substitution procedure in this way:</p>
+<blockquote>
+<p>Особенно занёс попытку если, сразу уходишь. Устал — не надо ждать команды судьи, прямо (меняемся во время игры).</p>
+<p>VID_20190720_115118</p>
+</blockquote>
+<p>Translation:</p>
+<blockquote>
+<p>Сhiefly if you’ve scored a try you leave immediately. Got tired—don’t wait for the referee’s command, (we substitute right in the course of the game).</p>
+<p>VID_20190720_115118</p>
+</blockquote>
+</div>
+</div>
+</div>
+<div id="fragment-3.-players-have-not-left-the-playing-area" class="slide section level1">
+<h1>Fragment 3. Players have not left the playing area</h1>
+<p>There are six BLACK players and seven RED players on the playing area when RED87 resumes the game.</p>
+<video width="800" controls>
+<source src="ds20201027_files/video/players_not_left.mp4" type="video/mp4">
+<p>Your browser does not support the video tag. </video></p>
+</div>
+<div id="fragment-3.-sequence" class="slide section level1">
+<h1>Fragment 3. Sequence</h1>
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">I</th>
+<th align="left">II</th>
+<th align="left">III</th>
+<th align="left">IV</th>
+<th align="left">V</th>
+<th align="left">VI</th>
+<th align="left">VII</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">BLACK12 scores</td>
+<td align="left">RED23&amp;83<br />BLACK3&amp;19&amp;10 starts</td>
+<td align="left">← RED11&amp;12 <br /> ← BLACK?&amp;?</td>
+<td align="left">BLACK3 →</td>
+<td align="left">RED11&amp;12 →</td>
+<td align="left">BLACK19 <br />RED83 in-goal</td>
+<td align="left">← RED11</td>
+</tr>
+<tr class="even">
+<td align="left">5 RED v 5 BLACK</td>
+<td align="left">5 v 5</td>
+<td align="left">7 v 7</td>
+<td align="left">7 v 6</td>
+<td align="left">5 v 6</td>
+<td align="left">4 + 1 v 5 + 1</td>
+<td align="left">5 + 1 v 5 + 1</td>
+</tr>
+</tbody>
+</table>
+<video width="800" controls>
+<source src="ds20201027_files/video/players_not_left.mp4" type="video/mp4">
+<p>Your browser does not support the video tag. </video></p>
+</div>
+<div id="observations" class="slide section level1">
+<h1>Observations</h1>
+<div class="columns">
+<div class="column" align="top" style="width:65%;">
+<ul>
+<li>Participants express their interpretations of the laws through actions (fragments 2 and 3)</li>
+<li>Officials sometimes tolerate violations of the laws (fragment 3). Sometimes they do not (fragment 2)</li>
+<li>Players project a signal of a referee. They often begin to leave the playing area before the referee blows the whistle (fragments 1 and 3)</li>
+<li>Participants account troubles and fix them (fragments 2 and 3)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="forthcoming" class="slide section level1">
+<h1>Forthcoming</h1>
+<ul>
+<li>substitutions as a tactical move</li>
+<li>conduction of substitutions</li>
+<li>fails and repairs</li>
+</ul>
+</div>
+</body>
+</html>
