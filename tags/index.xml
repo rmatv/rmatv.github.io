@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Роман Матвиенко</title>
+    <link>https://rmatv.github.io/tags/</link>
+    <description>Recent content in Tags on Роман Матвиенко</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>2017–2020</copyright>
+    <lastBuildDate>Sun, 22 Nov 2020 03:03:06 +0800</lastBuildDate>
+    
+	<atom:link href="https://rmatv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>books</title>
+      <link>https://rmatv.github.io/tags/books/</link>
+      <pubDate>Sun, 22 Nov 2020 03:03:06 +0800</pubDate>
+      
+      <guid>https://rmatv.github.io/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Durkheim</title>
+      <link>https://rmatv.github.io/tags/durkheim/</link>
+      <pubDate>Sun, 22 Nov 2020 03:03:06 +0800</pubDate>
+      
+      <guid>https://rmatv.github.io/tags/durkheim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sociology</title>
+      <link>https://rmatv.github.io/tags/sociology/</link>
+      <pubDate>Sun, 22 Nov 2020 03:03:06 +0800</pubDate>
+      
+      <guid>https://rmatv.github.io/tags/sociology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sports</title>
+      <link>https://rmatv.github.io/tags/sports/</link>
+      <pubDate>Wed, 02 Sep 2020 01:02:10 +0400</pubDate>
+      
+      <guid>https://rmatv.github.io/tags/sports/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

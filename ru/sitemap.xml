@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rmatv.github.io/tags/books/</loc>
+    <lastmod>2020-11-22T03:03:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rmatv.github.io/tags/durkheim/</loc>
+    <lastmod>2020-11-22T03:03:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rmatv.github.io/posts/</loc>
+    <lastmod>2020-11-22T03:03:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rmatv.github.io/tags/sociology/</loc>
+    <lastmod>2020-11-22T03:03:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rmatv.github.io/tags/</loc>
+    <lastmod>2020-11-22T03:03:06+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rmatv.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://rmatv.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rmatv.github.io/2020/11/suicide_missing/</loc>
+    <lastmod>2020-11-22T03:03:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rmatv.github.io/</loc>
+    <lastmod>2020-11-22T03:03:06+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rmatv.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://rmatv.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rmatv.github.io/tags/sports/</loc>
+    <lastmod>2020-09-02T01:02:10+04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rmatv.github.io/2020/09/risse/</loc>
+    <lastmod>2020-09-02T01:02:10+04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rmatv.github.io/2018/03/irreductions/</loc>
+    <lastmod>2018-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>
