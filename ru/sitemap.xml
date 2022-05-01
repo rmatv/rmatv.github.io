@@ -114,16 +114,16 @@
     <loc>https://rmatv.github.io/2018/03/irreductions/</loc>
     <lastmod>2018-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rmatv.github.io/categories/</loc>
+    <loc>https://rmatv.github.io/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rmatv.github.io/en/categories/"
+                href="https://rmatv.github.io/en/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://rmatv.github.io/categories/"
+                href="https://rmatv.github.io/index.html"
                 />
   </url>
 </urlset>

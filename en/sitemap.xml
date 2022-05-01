@@ -93,16 +93,16 @@
                 href="https://rmatv.github.io/en/tags/zotero/"
                 />
   </url><url>
-    <loc>https://rmatv.github.io/en/categories/</loc>
+    <loc>https://rmatv.github.io/en/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://rmatv.github.io/categories/"
+                href="https://rmatv.github.io/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rmatv.github.io/en/categories/"
+                href="https://rmatv.github.io/en/index.html"
                 />
   </url>
 </urlset>
