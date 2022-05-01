@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Роман Матвиенко</title>
-    <link>https://rmatv.github.io/tags/</link>
+    <link>https://rmatv.github.io/tags.html</link>
     <description>Recent content in Tags on Роман Матвиенко</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <copyright>2017–2021</copyright>
+    <copyright>2017–2022</copyright>
     <lastBuildDate>Mon, 02 May 2022 01:45:04 +0800</lastBuildDate>
     
 	<atom:link href="https://rmatv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -14,64 +14,64 @@
     
     <item>
       <title>BibLaTeX</title>
-      <link>https://rmatv.github.io/tags/biblatex/</link>
+      <link>https://rmatv.github.io/tags/biblatex.html</link>
       <pubDate>Mon, 02 May 2022 01:45:04 +0800</pubDate>
       
-      <guid>https://rmatv.github.io/tags/biblatex/</guid>
+      <guid>https://rmatv.github.io/tags/biblatex.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>LaTeX</title>
-      <link>https://rmatv.github.io/tags/latex/</link>
+      <link>https://rmatv.github.io/tags/latex.html</link>
       <pubDate>Mon, 02 May 2022 01:45:04 +0800</pubDate>
       
-      <guid>https://rmatv.github.io/tags/latex/</guid>
+      <guid>https://rmatv.github.io/tags/latex.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zotero</title>
-      <link>https://rmatv.github.io/tags/zotero/</link>
+      <link>https://rmatv.github.io/tags/zotero.html</link>
       <pubDate>Mon, 02 May 2022 01:45:04 +0800</pubDate>
       
-      <guid>https://rmatv.github.io/tags/zotero/</guid>
+      <guid>https://rmatv.github.io/tags/zotero.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>books</title>
-      <link>https://rmatv.github.io/tags/books/</link>
+      <link>https://rmatv.github.io/tags/books.html</link>
       <pubDate>Sun, 22 Nov 2020 03:03:06 +0800</pubDate>
       
-      <guid>https://rmatv.github.io/tags/books/</guid>
+      <guid>https://rmatv.github.io/tags/books.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Durkheim</title>
-      <link>https://rmatv.github.io/tags/durkheim/</link>
+      <link>https://rmatv.github.io/tags/durkheim.html</link>
       <pubDate>Sun, 22 Nov 2020 03:03:06 +0800</pubDate>
       
-      <guid>https://rmatv.github.io/tags/durkheim/</guid>
+      <guid>https://rmatv.github.io/tags/durkheim.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>sociology</title>
-      <link>https://rmatv.github.io/tags/sociology/</link>
+      <link>https://rmatv.github.io/tags/sociology.html</link>
       <pubDate>Sun, 22 Nov 2020 03:03:06 +0800</pubDate>
       
-      <guid>https://rmatv.github.io/tags/sociology/</guid>
+      <guid>https://rmatv.github.io/tags/sociology.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>sports</title>
-      <link>https://rmatv.github.io/tags/sports/</link>
+      <link>https://rmatv.github.io/tags/sports.html</link>
       <pubDate>Wed, 02 Sep 2020 01:02:10 +0400</pubDate>
       
-      <guid>https://rmatv.github.io/tags/sports/</guid>
+      <guid>https://rmatv.github.io/tags/sports.html</guid>
       <description></description>
     </item>
     

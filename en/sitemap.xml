@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rmatv.github.io/en/tags/biblatex/</loc>
+    <loc>https://rmatv.github.io/en/tags/biblatex.html</loc>
     <lastmod>2022-05-02T01:45:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://rmatv.github.io/tags/biblatex/"
+                href="https://rmatv.github.io/tags/biblatex.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rmatv.github.io/en/tags/biblatex/"
+                href="https://rmatv.github.io/en/tags/biblatex.html"
                 />
   </url><url>
-    <loc>https://rmatv.github.io/en/tags/latex/</loc>
+    <loc>https://rmatv.github.io/en/tags/latex.html</loc>
     <lastmod>2022-05-02T01:45:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://rmatv.github.io/tags/latex/"
+                href="https://rmatv.github.io/tags/latex.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rmatv.github.io/en/tags/latex/"
+                href="https://rmatv.github.io/en/tags/latex.html"
                 />
   </url><url>
-    <loc>https://rmatv.github.io/en/2022/05/zotero_origdate/</loc>
+    <loc>https://rmatv.github.io/en/2022/05/zotero_origdate.html</loc>
     <lastmod>2022-05-02T01:45:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://rmatv.github.io/2022/05/zotero_origdate/"
+                href="https://rmatv.github.io/2022/05/zotero_origdate.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rmatv.github.io/en/2022/05/zotero_origdate/"
+                href="https://rmatv.github.io/en/2022/05/zotero_origdate.html"
                 />
   </url><url>
-    <loc>https://rmatv.github.io/en/posts/</loc>
+    <loc>https://rmatv.github.io/en/posts.html</loc>
     <lastmod>2022-05-02T01:45:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://rmatv.github.io/posts/"
+                href="https://rmatv.github.io/posts.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rmatv.github.io/en/posts/"
+                href="https://rmatv.github.io/en/posts.html"
                 />
   </url><url>
     <loc>https://rmatv.github.io/en/</loc>
@@ -67,42 +67,42 @@
                 href="https://rmatv.github.io/en/"
                 />
   </url><url>
-    <loc>https://rmatv.github.io/en/tags/</loc>
+    <loc>https://rmatv.github.io/en/tags.html</loc>
     <lastmod>2022-05-02T01:45:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://rmatv.github.io/tags/"
+                href="https://rmatv.github.io/tags.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rmatv.github.io/en/tags/"
+                href="https://rmatv.github.io/en/tags.html"
                 />
   </url><url>
-    <loc>https://rmatv.github.io/en/tags/zotero/</loc>
+    <loc>https://rmatv.github.io/en/tags/zotero.html</loc>
     <lastmod>2022-05-02T01:45:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://rmatv.github.io/tags/zotero/"
+                href="https://rmatv.github.io/tags/zotero.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rmatv.github.io/en/tags/zotero/"
+                href="https://rmatv.github.io/en/tags/zotero.html"
                 />
   </url><url>
-    <loc>https://rmatv.github.io/en/index.html</loc>
+    <loc>https://rmatv.github.io/en/.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://rmatv.github.io/index.html"
+                href="https://rmatv.github.io/.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rmatv.github.io/en/index.html"
+                href="https://rmatv.github.io/en/.html"
                 />
   </url>
 </urlset>

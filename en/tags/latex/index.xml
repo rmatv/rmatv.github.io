@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LaTeX on Roman Matvienko</title>
-    <link>https://rmatv.github.io/en/tags/latex/</link>
+    <link>https://rmatv.github.io/en/tags/latex.html</link>
     <description>Recent content in LaTeX on Roman Matvienko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <copyright>2017–2021</copyright>
+    <copyright>2017–2022</copyright>
     <lastBuildDate>Mon, 02 May 2022 01:45:04 +0800</lastBuildDate>
     
 	<atom:link href="https://rmatv.github.io/en/tags/latex/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,10 @@
     
     <item>
       <title>Original publication date in Zotero</title>
-      <link>https://rmatv.github.io/en/2022/05/zotero_origdate/</link>
+      <link>https://rmatv.github.io/en/2022/05/zotero_origdate.html</link>
       <pubDate>Mon, 02 May 2022 01:45:04 +0800</pubDate>
       
-      <guid>https://rmatv.github.io/en/2022/05/zotero_origdate/</guid>
+      <guid>https://rmatv.github.io/en/2022/05/zotero_origdate.html</guid>
       <description>&lt;p&gt;Fill &amp;lsquo;Extra&amp;rsquo; field in Zotero with &lt;code&gt;original-date: (year)&lt;/code&gt; to include
 original publication date in a reference.&lt;/p&gt;
 &lt;p&gt;For example: &lt;a href=&#34;https://archive.org/details/sportwork0000riga&#34;&gt;English edition&lt;/a&gt;
