@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sports on Роман Матвиенко</title>
-    <link>https://rmatv.github.io/tags/sports/</link>
+    <link>/tags/sports/</link>
     <description>Recent content in sports on Роман Матвиенко</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>2017–2022</copyright>
     <lastBuildDate>Wed, 02 Sep 2020 01:02:10 +0400</lastBuildDate>
     
-	<atom:link href="https://rmatv.github.io/tags/sports/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sports/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Буквоедская заметка</title>
-      <link>https://rmatv.github.io/2020/09/risse/</link>
+      <link>/2020/09/risse/</link>
       <pubDate>Wed, 02 Sep 2020 01:02:10 +0400</pubDate>
       
-      <guid>https://rmatv.github.io/2020/09/risse/</guid>
+      <guid>/2020/09/risse/</guid>
       <description>&lt;p&gt;Наткнулся на любопытную неточность в текстах Эрика Даннинга о
 становлении социологии спорта. Даннинг неоднократно называет Хайнца
 Риссе — автора первой, по всей видимости, монографии, где
