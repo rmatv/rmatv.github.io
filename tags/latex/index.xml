@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LaTeX on Роман Матвиенко</title>
-    <link>/tags/latex/</link>
+    <link>https://rmatv.github.io/tags/latex/</link>
     <description>Recent content in LaTeX on Роман Матвиенко</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>2017–2022</copyright>
     <lastBuildDate>Mon, 02 May 2022 01:45:04 +0800</lastBuildDate>
     
-	<atom:link href="/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rmatv.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Дата публикации на языке оригинала в Zotero</title>
-      <link>/2022/05/zotero_origdate/</link>
+      <link>https://rmatv.github.io/2022/05/zotero_origdate/</link>
       <pubDate>Mon, 02 May 2022 01:45:04 +0800</pubDate>
       
-      <guid>/2022/05/zotero_origdate/</guid>
+      <guid>https://rmatv.github.io/2022/05/zotero_origdate/</guid>
       <description>&lt;p&gt;Чтобы включить дату публикации переводного источника на языке
 оригинала для формирования корректной библиографической ссылки при
 помощи Zotero, необходимo добавить &lt;code&gt;original-date: (год)&lt;/code&gt; в поле
