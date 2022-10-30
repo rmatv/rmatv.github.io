@@ -1,2 +1,0 @@
-# hugoproject
-source files
