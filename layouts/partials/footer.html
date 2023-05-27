@@ -1,0 +1,9 @@
+<div class="footer wrapper">
+	<nav class="nav">
+		<div>{{ with .Site.Title }} {{ . }} {{end}} ({{ with .Site.Copyright }}{{ . }}). {{ end }} <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+{{- with .Site.Params.Social -}}
+<script>feather.replace()</script>
+{{- end -}}

@@ -2,6 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rmatv.github.io/ru/posts/</loc>
+    <lastmod>2022-11-15T11:16:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rmatv.github.io/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://rmatv.github.io/ru/posts/"
+                />
+  </url><url>
+    <loc>https://rmatv.github.io/ru/tags/</loc>
+    <lastmod>2022-11-15T11:16:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rmatv.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://rmatv.github.io/ru/tags/"
+                />
+  </url><url>
+    <loc>https://rmatv.github.io/ru/tags/zotero/</loc>
+    <lastmod>2022-11-15T11:16:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rmatv.github.io/tags/zotero/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://rmatv.github.io/ru/tags/zotero/"
+                />
+  </url><url>
+    <loc>https://rmatv.github.io/ru/2022/11/zotero-foreign-title/</loc>
+    <lastmod>2022-11-15T11:16:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rmatv.github.io/2022/11/zotero-foreign-title/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://rmatv.github.io/ru/2022/11/zotero-foreign-title/"
+                />
+  </url><url>
+    <loc>https://rmatv.github.io/ru/</loc>
+    <lastmod>2022-11-15T11:16:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rmatv.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://rmatv.github.io/ru/"
+                />
+  </url><url>
     <loc>https://rmatv.github.io/ru/tags/biblatex/</loc>
     <lastmod>2022-05-02T01:45:04+08:00</lastmod>
     <xhtml:link
@@ -28,45 +93,6 @@
                 href="https://rmatv.github.io/ru/tags/latex/"
                 />
   </url><url>
-    <loc>https://rmatv.github.io/ru/posts/</loc>
-    <lastmod>2022-05-02T01:45:04+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rmatv.github.io/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://rmatv.github.io/ru/posts/"
-                />
-  </url><url>
-    <loc>https://rmatv.github.io/ru/tags/</loc>
-    <lastmod>2022-05-02T01:45:04+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rmatv.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://rmatv.github.io/ru/tags/"
-                />
-  </url><url>
-    <loc>https://rmatv.github.io/ru/tags/zotero/</loc>
-    <lastmod>2022-05-02T01:45:04+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rmatv.github.io/tags/zotero/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://rmatv.github.io/ru/tags/zotero/"
-                />
-  </url><url>
     <loc>https://rmatv.github.io/ru/2022/05/zotero_origdate/</loc>
     <lastmod>2022-05-02T01:45:04+08:00</lastmod>
     <xhtml:link
@@ -78,19 +104,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://rmatv.github.io/ru/2022/05/zotero_origdate/"
-                />
-  </url><url>
-    <loc>https://rmatv.github.io/ru/</loc>
-    <lastmod>2022-05-02T01:45:04+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rmatv.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://rmatv.github.io/ru/"
                 />
   </url><url>
     <loc>https://rmatv.github.io/ru/tags/books/</loc>

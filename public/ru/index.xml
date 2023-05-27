@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>2017–2022</copyright>
-    <lastBuildDate>Mon, 02 May 2022 01:45:04 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Nov 2022 11:16:54 +0800</lastBuildDate>
     
 	<atom:link href="https://rmatv.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Перевод заголовка с языка оригинала Zotero</title>
+      <link>https://rmatv.github.io/ru/2022/11/zotero-foreign-title/</link>
+      <pubDate>Tue, 15 Nov 2022 11:16:54 +0800</pubDate>
+      
+      <guid>https://rmatv.github.io/ru/2022/11/zotero-foreign-title/</guid>
+      <description>&lt;p&gt;Библиографический стиль APA требует указать перевод неанглоязычного
+источника в квадратных скобках после заголовка на языке оригинала. Чтобы
+корректно процитировать такой источник при помощи Zotero, нужно указать
+переведённый заголовок в поле &amp;ldquo;Extra&amp;rdquo; с префиксом &lt;code&gt;medium:&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Примеры:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Brümmer, K. (2019). Spielsysteme, Matchpläne, Spielanalysen: Über
+Praktiken und Medien des Kontingenzmanagements im gegenwärtigen
+Fußball [Systems of play, match plans, game analyses: On practices and
+media of contingency management in contemporary football]. &lt;em&gt;Sport und
+Gesellschaft, 16&lt;/em&gt;(3), 266–300. &lt;a href=&#34;https://doi.org/10.1515/sug-2019-0017&#34;&gt;https://doi.org/10.1515/sug-2019-0017&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coulon, A. (1998). Le football comme spectacle: Le plaisir de
+l’arbitraire [Football as a spectacle: the pleasure of arbitrariness].
+&lt;em&gt;Communications, 67&lt;/em&gt;(1), 25–32. &lt;a href=&#34;https://doi.org/10.3406/comm.1998.2013&#34;&gt;https://doi.org/10.3406/comm.1998.2013&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Источник&lt;/strong&gt;: &lt;a href=&#34;https://forums.zotero.org/discussion/74386/how-to-reference-foreign-language-titles-according-to-apa-with-zotero&#34;&gt;Zotero forum discussion&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Дата публикации на языке оригинала в Zotero</title>

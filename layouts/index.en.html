@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+<body>
+	<div class="container wrapper">
+		{{ partial "head.html" . }}
+
+		{{ with .Content }}{{ . }}{{ end }}
+
+		<figure> <img src = "images/archeology.jpg" />
+			<figcaption>Presentation of K. Gaaze ‘Archaeology of security: the history of two cybernetics’. Moscow School,
+			October 29, 2019; with Maria Volkova</figcaption>
+			</figure>
+
+		<p>I am a PhD student at the Chinese University of
+			Hong Kong. I am interested in ethnomethodology and sociology of sport. My current research is about intersubjective foundations of ongoing interactions in sports.</p>
+
+			<div class="recent-publications section">
+				<h2 class="section-header">
+					{{ i18n "recent_publications" }}
+				</h2>
+
+				<p>
+					Matvienko, Roman. 2018. ‘Television Match
+					Official Review in Rugby Union: the Sequence of
+					Referee’s Actions’. (in Russian). <em>Sociology of Power</em>
+					30(2):101–120. <a
+					href="files/matvienko2018.pdf">PDF</a>, <a
+					href="files/matvienko2018en.bib">BibTeX</a>
+				</p>
+			</div>
+
+		<div class="recent-posts section">
+			<h2 class="section-header">
+				{{ i18n "recent_posts" }}
+			</h2>
+			<div class="posts">
+				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+				{{ range $paginator.Pages }}
+				<div class="post">
+					<div class="meta">{{ dateFormat "2 January 2006" .Date }}{{ if .Draft }} <span class="draft-label">{{T "drafted"}}</span> {{ end }}</div>
+					<strong><a class="title" href="{{ .RelPermalink }}">{{.Title}}</a></strong> &emsp;
+					<span class="description">
+						{{ if isset .Params "description" }}
+						{{ .Description }}
+						{{ else }}
+						{{ .Summary }}&hellip;
+						{{ end }}
+					</span>
+				</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+	
+	{{ partial "footer.html" . }}
+</body>
+</html>

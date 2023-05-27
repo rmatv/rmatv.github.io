@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+
+<body>
+	<div class="container wrapper list">
+		{{ partial "head.html" . }}
+
+		{{ if isset .Data "Term" }}
+			<h1>{{ i18n "tagged" }} <em>{{ .Data.Term }}</em></h1>
+		{{ else }}
+			<h1 class="page-title">{{T "all_posts"}}</h1>
+		{{ end }}
+
+		{{ with .Content }}{{ . }}{{ end }}
+
+		<ul class="posts">
+			{{- range .Data.Pages -}}
+			{{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
+			{{- else -}}
+			<li class="post">
+				<span class="meta">{{ dateFormat "2 January 2006" .Date }}{{ if .Draft }} <span class="draft-label">{{ T "drafted"}}</span> {{ end }}</span> <a href="{{ .RelPermalink }}">{{.Title}}</a> 
+			</li>
+			{{- end -}}
+			{{- end -}}
+		</ul>
+	</div>
+
+	{{ partial "footer.html" . }}
+</body>
+
+</html>
