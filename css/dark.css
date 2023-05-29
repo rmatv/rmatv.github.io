@@ -41,8 +41,9 @@ a:hover {
 }
 
 .post-tags .tags a {
-    border: 1px solid #ddd;
+  border: 1px none #ddd;
 	color: #ddd;
+  background-color: #ff7979;
 }
 
 .site-title a {
@@ -70,4 +71,8 @@ table th, table td {
 
 pre code {
   display: inline-block
+}
+
+.list .posts .post .meta {
+  color: #ccc;
 }

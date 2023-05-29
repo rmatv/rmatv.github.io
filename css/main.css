@@ -2,7 +2,7 @@
 
 html,button,input,select,textarea {
     color: #333;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 body {
@@ -179,7 +179,7 @@ ul.flat {
 ul.flat li {
     display: inline-block;
     list-style: none;
-    margin-left: 1em;
+    margin-left: none;
 }
 
 .prevent-collapse {
@@ -290,7 +290,6 @@ pre code {
 
 .section .section-header {
     text-transform: none;
-    color: #333;
     letter-spacing: normal;
 }
 
@@ -302,7 +301,6 @@ pre code {
 .post .post-header .meta,
 .list .posts .post .meta {
     font-size: 0.875em;
-    color: #666;
     margin-bottom: 0em;
 }
 
@@ -339,7 +337,6 @@ pre code {
 .post-tags .tags a {
     display: inline-block;
     border: 1px solid #33c;
-    background-color: #fff;
     border-radius: 4px;
     padding: 0px 6px;
     color: #33c;
@@ -352,6 +349,10 @@ pre code {
 .list .posts .post .meta {
     margin-bottom: 0;
     margin-left: 5px;
+}
+
+.post{
+  margin-bottom: 1.09em;
 }
 
 .footer {
