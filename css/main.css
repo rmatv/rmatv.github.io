@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 1.5em;
     line-height: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.25em;
 }
 
 h2 {
@@ -302,6 +302,10 @@ pre code {
 .list .posts .post .meta {
     font-size: 0.875em;
     margin-bottom: 0em;
+}
+
+.post .meta{
+  font-size: smaller
 }
 
 /*.post .post-header {
