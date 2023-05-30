@@ -266,7 +266,7 @@ pre code {
 .header nav ul.flat li {
     margin: 0;
     font-size: 1em;
-    display: inline-block;
+    display: flex;
     list-style: none;
     text-transform: capitalize;
 }
@@ -434,7 +434,7 @@ table th, table td {
 
 /* Медиа */
 
-@media (max-width: 767px) {
+@media (max-width: 1080px) {
     body {
         padding: 20px;
     }
