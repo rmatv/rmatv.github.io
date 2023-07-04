@@ -5,7 +5,7 @@
     <link>https://rmatv.github.io/ru/</link>
     <description>Recent content on Роман Матвиенко</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru-ru</language>
+    <language>ru</language>
     <copyright>2017–2023</copyright>
     <lastBuildDate>Tue, 15 Nov 2022 11:16:54 +0800</lastBuildDate>
     
@@ -21,7 +21,7 @@
       <description>&lt;p&gt;Библиографический стиль APA требует указать перевод неанглоязычного
 источника в квадратных скобках после заголовка на языке оригинала. Чтобы
 корректно процитировать такой источник при помощи Zotero, нужно указать
-переведённый заголовок в поле &amp;ldquo;Extra&amp;rdquo; с префиксом &lt;code&gt;medium:&lt;/code&gt;.&lt;/p&gt;
+переведённый заголовок в поле «Extra» с префиксом &lt;code&gt;medium:&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Примеры:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Brümmer, K. (2019). Spielsysteme, Matchpläne, Spielanalysen: Über
 Praktiken und Medien des Kontingenzmanagements im gegenwärtigen
@@ -32,6 +32,14 @@ Gesellschaft, 16&lt;/em&gt;(3), 266–300. &lt;a href=&#34;https://doi.org/10.15
 l’arbitraire [Football as a spectacle: the pleasure of arbitrariness].
 &lt;em&gt;Communications, 67&lt;/em&gt;(1), 25–32. &lt;a href=&#34;https://doi.org/10.3406/comm.1998.2013&#34;&gt;https://doi.org/10.3406/comm.1998.2013&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Источник&lt;/strong&gt;: &lt;a href=&#34;https://forums.zotero.org/discussion/74386/how-to-reference-foreign-language-titles-according-to-apa-with-zotero&#34;&gt;Zotero forum discussion&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Обновление (4 июля 2023)&lt;/strong&gt; К сожалению, трюк работает &lt;em&gt;только&lt;/em&gt; в
+текстовых процессорах. &lt;code&gt;BibLaTeX&lt;/code&gt; и &lt;code&gt;pandoc-citeproc&lt;/code&gt; не обрабатывают
+префикс &lt;code&gt;medium&lt;/code&gt;. Для работы в LaTeX потребуется указать заголовок на
+языке оригинала в поле &lt;code&gt;origtitle&lt;/code&gt; (см. &lt;a href=&#34;https://raw.githubusercontent.com/plk/biblatex-apa/master/bibtex/bib/biblatex-apa-test-references.bib&#34;&gt;пример
+10.1:9&lt;/a&gt;).
+Для работы с &lt;code&gt;pandoc&lt;/code&gt; потребуется ещё и адаптировать стандартный
+&lt;a href=&#34;https://github.com/citation-style-language/styles/blob/master/apa.csl&#34;&gt;csl-file&lt;/a&gt;
+(этим я пока ещё не занимался).&lt;/p&gt;
 </description>
     </item>
     

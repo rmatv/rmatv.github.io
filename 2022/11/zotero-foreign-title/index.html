@@ -65,6 +65,14 @@ Gesellschaft, 16</em>(3), 266–300. <a href="https://doi.org/10.1515/sug-2019-0
 l’arbitraire [Football as a spectacle: the pleasure of arbitrariness].
 <em>Communications, 67</em>(1), 25–32. <a href="https://doi.org/10.3406/comm.1998.2013">https://doi.org/10.3406/comm.1998.2013</a></p>
 <p><strong>Source</strong>: <a href="https://forums.zotero.org/discussion/74386/how-to-reference-foreign-language-titles-according-to-apa-with-zotero">Zotero forum discussion</a>.</p>
+<p><strong>Update (4 July 2023).</strong> Unfortunately, this trick only works in word
+processors. <code>BibLaTeX</code> and <code>pandoc-citeproc</code> do not process the <code>medium</code>
+prefix. For LaTeX, specify the original title in the origtitle field in
+the bib file (see <a href="https://raw.githubusercontent.com/plk/biblatex-apa/master/bibtex/bib/biblatex-apa-test-references.bib">example
+10.1:9</a>).
+For pandoc, you will also need to modify the default
+<a href="https://github.com/citation-style-language/styles/blob/master/apa.csl">csl</a>
+file (which I have not yet done).</p>
 
 			</div>
 

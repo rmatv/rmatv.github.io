@@ -5,7 +5,7 @@
     <link>https://rmatv.github.io/</link>
     <description>Recent content on Roman Matvienko</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru-ru</language>
+    <language>en</language>
     <copyright>2017–2023</copyright>
     <lastBuildDate>Tue, 15 Nov 2022 11:16:54 +0800</lastBuildDate>
     
@@ -31,6 +31,14 @@ Gesellschaft, 16&lt;/em&gt;(3), 266–300. &lt;a href=&#34;https://doi.org/10.15
 l’arbitraire [Football as a spectacle: the pleasure of arbitrariness].
 &lt;em&gt;Communications, 67&lt;/em&gt;(1), 25–32. &lt;a href=&#34;https://doi.org/10.3406/comm.1998.2013&#34;&gt;https://doi.org/10.3406/comm.1998.2013&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Source&lt;/strong&gt;: &lt;a href=&#34;https://forums.zotero.org/discussion/74386/how-to-reference-foreign-language-titles-according-to-apa-with-zotero&#34;&gt;Zotero forum discussion&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update (4 July 2023).&lt;/strong&gt; Unfortunately, this trick only works in word
+processors. &lt;code&gt;BibLaTeX&lt;/code&gt; and &lt;code&gt;pandoc-citeproc&lt;/code&gt; do not process the &lt;code&gt;medium&lt;/code&gt;
+prefix. For LaTeX, specify the original title in the origtitle field in
+the bib file (see &lt;a href=&#34;https://raw.githubusercontent.com/plk/biblatex-apa/master/bibtex/bib/biblatex-apa-test-references.bib&#34;&gt;example
+10.1:9&lt;/a&gt;).
+For pandoc, you will also need to modify the default
+&lt;a href=&#34;https://github.com/citation-style-language/styles/blob/master/apa.csl&#34;&gt;csl&lt;/a&gt;
+file (which I have not yet done).&lt;/p&gt;
 </description>
     </item>
     

@@ -55,7 +55,7 @@
 				<p>Библиографический стиль APA требует указать перевод неанглоязычного
 источника в квадратных скобках после заголовка на языке оригинала. Чтобы
 корректно процитировать такой источник при помощи Zotero, нужно указать
-переведённый заголовок в поле &ldquo;Extra&rdquo; с префиксом <code>medium:</code>.</p>
+переведённый заголовок в поле «Extra» с префиксом <code>medium:</code>.</p>
 <p><strong>Примеры:</strong></p>
 <p>Brümmer, K. (2019). Spielsysteme, Matchpläne, Spielanalysen: Über
 Praktiken und Medien des Kontingenzmanagements im gegenwärtigen
@@ -66,6 +66,14 @@ Gesellschaft, 16</em>(3), 266–300. <a href="https://doi.org/10.1515/sug-2019-0
 l’arbitraire [Football as a spectacle: the pleasure of arbitrariness].
 <em>Communications, 67</em>(1), 25–32. <a href="https://doi.org/10.3406/comm.1998.2013">https://doi.org/10.3406/comm.1998.2013</a></p>
 <p><strong>Источник</strong>: <a href="https://forums.zotero.org/discussion/74386/how-to-reference-foreign-language-titles-according-to-apa-with-zotero">Zotero forum discussion</a>.</p>
+<p><strong>Обновление (4 июля 2023)</strong> К сожалению, трюк работает <em>только</em> в
+текстовых процессорах. <code>BibLaTeX</code> и <code>pandoc-citeproc</code> не обрабатывают
+префикс <code>medium</code>. Для работы в LaTeX потребуется указать заголовок на
+языке оригинала в поле <code>origtitle</code> (см. <a href="https://raw.githubusercontent.com/plk/biblatex-apa/master/bibtex/bib/biblatex-apa-test-references.bib">пример
+10.1:9</a>).
+Для работы с <code>pandoc</code> потребуется ещё и адаптировать стандартный
+<a href="https://github.com/citation-style-language/styles/blob/master/apa.csl">csl-file</a>
+(этим я пока ещё не занимался).</p>
 
 			</div>
 
