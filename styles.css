@@ -28,7 +28,7 @@
 
 /* Set the base font size and line height */
 html {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 1.35;
 }
@@ -83,4 +83,16 @@ ul, ol{
   margin: 0 0 0 0;
   padding-left: 1rem;
   padding-bottom: 1rem;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+  /* Adjust font sizes for mobile screens */
+  h1 {
+    font-size: 1.5em; /* Adjust the font size of h1 for mobile */
+  }
+
+  h2 {
+    font-size: 1.25em; /* Adjust the font size of h2 for mobile */
+  }
 }
