@@ -1,0 +1,190 @@
+/* Styles for large screens */
+@media screen and (min-width: 768px) {
+  body {
+    margin: 2rem 0 0 2rem;
+    width: 42rem;
+  }
+  img {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    max-width: 33%;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Styles for mobile devices */
+@media screen and (max-width: 767px) {
+  p {
+    width: 100%;
+  }
+  img {
+    float: none;
+    margin: 0 auto 1rem auto;
+    display: block;
+    max-width: 75%;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Set the base font size and line height */
+html {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+}
+/* Navigation */
+
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  border-bottom: 1px dotted #00c;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+nav a{
+  text-decoration: none;
+  color: #00c;
+}
+/* Establish the baseline grid */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 98vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 1.25em;
+}
+
+h2 {
+  font-size: 1.15em;
+}
+
+h3 {
+  font-size: 1.05em;
+}
+
+footer {
+  margin-top: 1rem;
+  text-align: left;
+  bottom: 0;
+  width: 100%;
+}
+
+ul, ol{
+  margin: 0 0 0 0;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+blockquote{
+  padding-left: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.highlight{
+  padding: 1rem;
+}
+
+code{
+  max-width: 95%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  padding: 0.5rem;
+}
+/* Footnotes */
+
+sup{
+  display: inline-block;
+  line-height: 0;
+}
+
+a.footnote-ref{
+  color: #33c;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+  /* Adjust font sizes for mobile screens */
+  h1 {
+    font-size: 1.5em; /* Adjust the font size of h1 for mobile */
+  }
+
+  h2 {
+    font-size: 1.25em; /* Adjust the font size of h2 for mobile */
+  }
+}
+
+/* Media query for printers */
+@media print {
+  body, article {
+    color: #000;
+    background: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    background: none;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  p{
+    font-family: serif;
+  }
+
+  nav, aside {
+    display: none;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+     article a {
+      font-weight: bolder;
+      text-decoration: none;
+   }
+
+   article a[href^=http]:after {
+      content:" <" attr(href) "> ";
+   }
+
+   article a[href^="#"]:after {
+   content: "";
+   }
+ 
+}
