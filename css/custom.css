@@ -30,7 +30,7 @@ article footer{
     margin: auto;
   }
   p img {
-    max-width: 95%;
+*    max-width: 95%; 
   }
 }
 
@@ -108,7 +108,7 @@ figure {
   align-items: center;
   margin: 1rem auto;
   text-align: center;
-  max-width: 95%;
+  max-width: 100%;
 }
 
 figure img {
